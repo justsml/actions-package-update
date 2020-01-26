@@ -1,9 +1,9 @@
-FROM node:latest
+FROM node:10
 
 LABEL version="0.7.2"
-LABEL repository="https://github.com/taichi/actions-package-update"
-LABEL homepage="https://github.com/taichi/actions-package-update"
-LABEL maintainer="Sato Taichi <ryushi+actions@gmail.com>"
+LABEL repository="https://github.com/justsml/actions-package-update"
+LABEL homepage="https://github.com/justsml/actions-package-update"
+LABEL maintainer="justsml <justsml+actions@example.com>"
 
 LABEL "com.github.actions.name"="GitHub Action for package.json update."
 LABEL "com.github.actions.description"="Upgrades your package.json dependencies to the latest versions"
